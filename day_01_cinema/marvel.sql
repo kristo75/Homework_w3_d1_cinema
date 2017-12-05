@@ -194,7 +194,7 @@ SELECT * FROM people;
 --    exclusive midnight showing of 'Guardians of the Galaxy 2'!!
 -- Create a new entry in the 'movies' table to reflect this.
 INSERT INTO movies (title, year, show_time)
-VALUES ('Guardians of the Galaxy 2', 2017, '17:55');
+VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
 SELECT * FROM movies;
 -- 9. The cinema would also like to make the Guardian movies
 -- a back to back feature. Update the 'Guardians of the Galaxy' show time
