@@ -200,4 +200,9 @@ SELECT * FROM movies;
 -- a back to back feature. Update the 'Guardians of the Galaxy' show time
 -- from 17:55 to 21:30
 UPDATE movies SET show_time = '21:30'
-WHERE show_time = '17:55';
+WHERE id = 11;
+select * From movies;
+
+-- Research how to delete multiple entries from your table in a single command.
+DELETE FROM people WHERE name = 'Robert Henderson, Dave Ellis';
+SELECT * FROM people;
