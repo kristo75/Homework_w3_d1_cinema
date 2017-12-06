@@ -22,8 +22,9 @@ albums = Albums.all
 artists = Artists.all
 
 
-
 album1.save
+
+album1.artist_in_album
 
 
 binding.pry

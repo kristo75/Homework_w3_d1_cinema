@@ -27,4 +27,6 @@ class Artists
     return artists.map {|artist| Artists.new(artist)}
   end
 
+  
+
 end
