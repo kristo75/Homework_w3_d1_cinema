@@ -12,4 +12,8 @@ class Artists
     @last_name = options ['last_name']
   end
 
+  def save()
+
+  end
+
 end
